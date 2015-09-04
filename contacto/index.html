@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Mali Accesorios</title>
+    <title>Contacto</title>
     <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mi at ipsum maximus ullamcorper et consequat ante. Sed risus metus, pretium et ornare eget, imperdiet ultrices turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 " />
 
     <link rel="stylesheet" href="/css/bootstrap.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="/css/mali.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="http://localhost:4000//">
+    <link rel="canonical" href="http://localhost:4000//contacto/">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
@@ -103,15 +103,64 @@
 
     <div class="page-content">
       <div class="container">
-        <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-        <img class="img-responsive img-rounded center-block img-thumbnail" src="/img/img0015.jpg" alt="" title="example image"/>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Contacto</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content">
+    <div class="container">
+  <form class="form-horizontal">
+    <!-- Input group -->
+    <div class="form-group has-success">
+      <label for="name" class="control-label col-md-3">Nombre:</label>
+      <div class="col-md-6">
+        <input type="text" class="form-control" name="name" id="name" />
+      </div>
     </div>
+
+    <div class="form-group has-success">
+      <label for="email" class="control-label col-md-3">Correo electrónico:</label>
+      <div class="col-md-6">
+        <input type="text" name="email" id="email" class="form-control" />
+      </div>
+    </div>
+
+    <div class="form-group has-success">
+      <label for="message" class="control-label col-md-3">¿Cómo supo de nosotros?:</label>
+      <div class="col-md-6">
+        <select class="form-control has-success">
+          <option>Una amiga/conocida</option>
+          <option>Hoja volante</option>
+          <option>Búsqueda en internet</option>
+          <option>Facebook</option>
+          <option>Otro</option>
+        </select>
+        <!--p class="help-block">Example block-level help text here.</p-->
+      </div>
+    </div>
+
+
+    <div class="form-group has-success">
+      <label for="message" class="control-label col-md-3">Mensaje:</label>
+      <div class="col-md-6">
+        <textarea class="form-control" rows="3"></textarea>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="form-group">
+        <button type="button" id="submit" class="btn btn-success col-md-6 col-md-offset-3">Enviar</button>
+    </div>
+  </form>
 </div>
 
-<ul class="post-list">
-    
-</ul>
+
+  </article>
+
+</div>
 
       </div>
 

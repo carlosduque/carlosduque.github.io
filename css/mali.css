@@ -1,0 +1,33 @@
+body {
+  color: #731842; }
+
+.page-content {
+  padding: 100px 0;
+  /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+  background-image: url("img/bg.jpg"); }
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6
+.small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5
+small, h6 .small, h6 small {
+  color: #C67BA5; }
+
+.navbar-default .navbar-nav li > a {
+  color: #731842; }
+.navbar-default .navbar-nav .open > a:focus,
+.navbar-default .navbar-nav .open > a:hover {
+  background-color: #C67BA5;
+  color: #731842; }
+
+.dropdown-header {
+  color: #4A1031;
+  font-size: 14px; }
+
+.dropdown-menu > li > a {
+  color: #A54A7B; }
+
+.sub {
+  font-size: 12px; }
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #C67BA5; }
