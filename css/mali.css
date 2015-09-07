@@ -1,6 +1,12 @@
 body {
   color: #d34d9c; }
 
+@font-face {
+  font-family: 'SomeSugar2';
+  src: url("/fonts/give_me_some_sugar_2.ttf"); }
+.page-header {
+  font-family: 'SomeSugar2', Helvetica, Arial, sans-serif; }
+
 .page-content {
   padding: 100px 0;
   /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
